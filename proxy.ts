@@ -2,7 +2,7 @@ import { NextRequest, NextResponse } from 'next/server'
 
 const RU_COUNTRIES = new Set(['RU', 'BY', 'UA'])
 
-export function middleware(request: NextRequest) {
+export function proxy(request: NextRequest) {
   const { pathname } = request.nextUrl
 
   if (pathname.startsWith('/ru') || pathname.startsWith('/en')) {
