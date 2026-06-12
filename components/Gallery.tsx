@@ -1,3 +1,5 @@
+'use client'
+
 const photos = [
   { src: '/images/gallery-1.jpg', alt: 'Salon interior 1' },
   { src: '/images/gallery-2.jpg', alt: 'Salon interior 2' },
