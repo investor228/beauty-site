@@ -6,11 +6,12 @@ import Gallery from '@/components/Gallery'
 import BookingForm from '@/components/BookingForm'
 import Footer from '@/components/Footer'
 
-export default function Home({ params }: { params: { locale: Locale } }) {
-  const t = getT(params.locale)
+export default async function Home({ params }: { params: Promise<{ locale: Locale }> }) {
+  const { locale } = await params
+  const t = getT(locale)
   return (
     <main>
-      <Navbar t={t} locale={params.locale} />
+      <Navbar t={t} locale={locale} />
       <Hero t={t} />
       <Services t={t} />
       <Gallery t={t} />
@@ -18,4 +19,8 @@ export default function Home({ params }: { params: { locale: Locale } }) {
       <Footer t={t} />
     </main>
   )
+}
+
+export function generateStaticParams() {
+  return [{ locale: 'ru' }, { locale: 'en' }]
 }

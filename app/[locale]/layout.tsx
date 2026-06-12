@@ -10,20 +10,17 @@ export const metadata: Metadata = {
   description: 'Premium beauty salon',
 }
 
-export default function LocaleLayout({
+export default async function LocaleLayout({
   children,
   params,
 }: {
   children: React.ReactNode
-  params: { locale: Locale }
+  params: Promise<{ locale: Locale }>
 }) {
+  const { locale } = await params
   return (
-    <html lang={params.locale}>
+    <html lang={locale}>
       <body className={inter.className}>{children}</body>
     </html>
   )
-}
-
-export function generateStaticParams() {
-  return [{ locale: 'ru' }, { locale: 'en' }]
 }
