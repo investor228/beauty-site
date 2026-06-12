@@ -16,7 +16,7 @@ export default function Navbar({ t, locale }: Props) {
   return (
     <header className="fixed top-0 left-0 right-0 z-50 bg-white/80 backdrop-blur-md border-b border-[#F2E8E7]">
       <div className="max-w-6xl mx-auto px-6 h-16 flex items-center justify-between">
-        <span className="text-[#2C2C2C] font-semibold text-lg tracking-wide">Beauty Salon</span>
+        <span className="text-[#2C2C2C] font-semibold text-lg tracking-wide">Tatiana Beauty</span>
 
         <nav className="hidden md:flex gap-8 text-sm text-[#6B6B6B]">
           {[

@@ -2,7 +2,7 @@ export default function Footer({ t }: { t: any }) {
   return (
     <footer className="bg-[#2C2C2C] text-white/60 py-8">
       <div className="max-w-6xl mx-auto px-6 flex flex-col sm:flex-row items-center justify-between gap-4">
-        <span className="text-white font-semibold text-lg">Beauty Salon</span>
+        <span className="text-white font-semibold text-lg">Tatiana Beauty</span>
         <p className="text-sm">{t.footer.copy}</p>
         <div className="flex gap-4">
           <a href="#" aria-label="Instagram" className="hover:text-white transition-colors">

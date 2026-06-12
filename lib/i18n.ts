@@ -10,7 +10,7 @@ export const translations = {
     },
     hero: {
       title: 'Ваша красота — наше искусство',
-      subtitle: 'Премиальный салон красоты в центре города. Индивидуальный подход и безупречный сервис.',
+      subtitle: 'Мастер Татьяна. Профессиональный уход в Минске. Индивидуальный подход и безупречный сервис.',
       cta: 'Записаться на процедуру',
       services: 'Наши услуги',
     },
@@ -18,12 +18,12 @@ export const translations = {
       title: 'Наши услуги',
       subtitle: 'Широкий спектр профессиональных услуг для вашей красоты и ухоженности',
       from: 'от',
-      currency: '₽',
+      currency: 'BYN',
       items: [
-        { title: 'Стрижки и укладки', desc: 'Профессиональные мастера создадут идеальный образ для вас', price: '2500' },
-        { title: 'Окрашивание', desc: 'Современные техники окрашивания премиум-красителями', price: '4500' },
-        { title: 'Уход и SPA', desc: 'Восстановление и питание волос, массаж головы', price: '3000' },
-        { title: 'Вечерние прически', desc: 'Элегантные укладки для особых мероприятий', price: '3500' },
+        { title: 'Стрижки и укладки', desc: 'Профессиональные мастера создадут идеальный образ для вас', price: '100' },
+        { title: 'Окрашивание', desc: 'Современные техники окрашивания премиум-красителями', price: '100' },
+        { title: 'Уход и SPA', desc: 'Восстановление и питание волос, массаж головы', price: '100' },
+        { title: 'Вечерние прически', desc: 'Элегантные укладки для особых мероприятий', price: '100' },
       ],
     },
     gallery: {
@@ -43,9 +43,9 @@ export const translations = {
     },
     contacts: {
       title: 'Контакты',
-      address: 'г. Москва, ул. Тверская, д. 15',
-      phone: '+7 (495) 123-45-67',
-      email: 'info@beautysalon.ru',
+      address: 'г. Минск (адрес уточняется при записи)',
+      phone: '+375 (XX) XXX-XX-XX',
+      email: 'info@beautysalon.by',
       hours: 'Пн-Вс: 10:00 - 21:00',
       addressLabel: 'Адрес',
       phoneLabel: 'Телефон',
@@ -53,7 +53,7 @@ export const translations = {
       hoursLabel: 'Режим работы',
     },
     footer: {
-      copy: '© 2024 Beauty Salon. Все права защищены.',
+      copy: '© 2024 Татьяна. Все права защищены.',
     },
   },
   en: {
@@ -65,7 +65,7 @@ export const translations = {
     },
     hero: {
       title: 'Your Beauty — Our Art',
-      subtitle: 'Premium beauty salon in the heart of the city. Individual approach and impeccable service.',
+      subtitle: 'Master Tatiana. Professional beauty care in Minsk. Individual approach and impeccable service.',
       cta: 'Book an Appointment',
       services: 'Our Services',
     },
@@ -73,12 +73,12 @@ export const translations = {
       title: 'Our Services',
       subtitle: 'A wide range of professional beauty and grooming services',
       from: 'from',
-      currency: '₽',
+      currency: 'BYN',
       items: [
-        { title: 'Haircuts & Styling', desc: 'Professional masters will create the perfect look for you', price: '2500' },
-        { title: 'Hair Coloring', desc: 'Modern coloring techniques with premium dyes', price: '4500' },
-        { title: 'Care & SPA', desc: 'Hair restoration and nourishment, scalp massage', price: '3000' },
-        { title: 'Evening Hairstyles', desc: 'Elegant updos for special occasions', price: '3500' },
+        { title: 'Haircuts & Styling', desc: 'Professional masters will create the perfect look for you', price: '100' },
+        { title: 'Hair Coloring', desc: 'Modern coloring techniques with premium dyes', price: '100' },
+        { title: 'Care & SPA', desc: 'Hair restoration and nourishment, scalp massage', price: '100' },
+        { title: 'Evening Hairstyles', desc: 'Elegant updos for special occasions', price: '100' },
       ],
     },
     gallery: {
@@ -98,9 +98,9 @@ export const translations = {
     },
     contacts: {
       title: 'Contacts',
-      address: 'Moscow, Tverskaya St. 15',
-      phone: '+7 (495) 123-45-67',
-      email: 'info@beautysalon.ru',
+      address: 'Minsk (address provided upon booking)',
+      phone: '+375 (XX) XXX-XX-XX',
+      email: 'info@beautysalon.by',
       hours: 'Mon-Sun: 10:00 - 21:00',
       addressLabel: 'Address',
       phoneLabel: 'Phone',
@@ -108,7 +108,7 @@ export const translations = {
       hoursLabel: 'Working Hours',
     },
     footer: {
-      copy: '© 2024 Beauty Salon. All rights reserved.',
+      copy: '© 2024 Tatiana. All rights reserved.',
     },
   },
 }
