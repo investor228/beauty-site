@@ -1,7 +1,6 @@
 import type { Metadata } from 'next'
 import { Inter } from 'next/font/google'
 import '../globals.css'
-import { Locale } from '@/lib/i18n'
 
 const inter = Inter({ subsets: ['latin', 'cyrillic'] })
 
@@ -15,7 +14,7 @@ export default async function LocaleLayout({
   params,
 }: {
   children: React.ReactNode
-  params: Promise<{ locale: Locale }>
+  params: Promise<{ locale: string }>
 }) {
   const { locale } = await params
   return (

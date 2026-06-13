@@ -6,8 +6,9 @@ import Gallery from '@/components/Gallery'
 import BookingForm from '@/components/BookingForm'
 import Footer from '@/components/Footer'
 
-export default async function Home({ params }: { params: Promise<{ locale: Locale }> }) {
-  const { locale } = await params
+export default async function Home({ params }: { params: Promise<{ locale: string }> }) {
+  const { locale: localeParam } = await params
+  const locale = (localeParam === 'en' ? 'en' : 'ru') as Locale
   const t = getT(locale)
   return (
     <main>
